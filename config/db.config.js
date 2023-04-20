@@ -4,7 +4,7 @@ module.exports = {
   host: "dpg-ch0gg133cv2c5b4ght00-a",
   user: "todo_production",
   pass: "2n7AuojQtqNVwjmiE530wSxslWqIC0jo",
-  db: "todo_icw4"
+  db: "todo_icw4",
   dialect: "postgres",
   secret: "appAcademy",
   pool: {
