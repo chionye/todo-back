@@ -19,7 +19,9 @@ app.use(cookieParser());
 
 db.sequelize.sync().then(() => {
   console.log("Sync successful");
-});
+}).catch((err)=>{
+  console.log(err)
+})
 
 app.use('/todo', todo);
 app.use('/user', user);
