@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 db.sequelize.sync().then(() => {
-  console.log("Sync successful");
+  console.log("Synced successfully");
 }).catch((err)=>{
   console.log(err)
 })
